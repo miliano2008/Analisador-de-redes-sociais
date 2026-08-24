@@ -1,2 +1,2 @@
 # Analisador-de-redes-sociais
-Projeto 3 - Analisador de Redes Sociais
+Projeto A3 - Analisador de Redes Sociais
