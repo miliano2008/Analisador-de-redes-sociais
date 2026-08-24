@@ -1,8 +1,8 @@
-NetLens — Mapeamento e Análise de Redes de Influência
+Trama— Mapeamento e Análise de Redes de Influência
 
 ## 1. Visão Geral
 
-O NetLens é um projeto que tem como objetivo analisar redes de conexões entre pessoas ou entidades.
+O Trama é um projeto que tem como objetivo analisar redes de conexões entre pessoas ou entidades.
 
 A ideia é transformar essas conexões em um grafo, permitindo visualizar a rede e descobrir quais pessoas ou entidades possuem maior importância dentro dela.
 
@@ -24,7 +24,7 @@ Por isso, o projeto busca responder:
 
 ## 3. Solução Proposta
 
-O NetLens irá receber dados sobre as conexões e transformar essas informações em um grafo.
+O Trama irá receber dados sobre as conexões e transformar essas informações em um grafo.
 
 No grafo:
 
