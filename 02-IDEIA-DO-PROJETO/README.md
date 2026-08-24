@@ -1,6 +1,6 @@
-Trama— Mapeamento e Análise de Redes de Influência
+Trama - Mapeamento e Análise de Redes de Influência
 
-## 1. Visão Geral
+ 1. Visão Geral
 
 O Trama é um projeto que tem como objetivo analisar redes de conexões entre pessoas ou entidades.
 
@@ -10,7 +10,7 @@ Para isso, serão utilizadas métricas de análise de redes, como Degree, Betwee
 
 ---
 
-## 2. Problema
+ 2. Problema
 
 Em uma rede com muitas pessoas e conexões, pode ser difícil perceber quem realmente tem influência ou quem é importante para manter diferentes grupos conectados.
 
@@ -22,7 +22,7 @@ Por isso, o projeto busca responder:
 
 ---
 
-## 3. Solução Proposta
+ 3. Solução Proposta
 
 O Trama irá receber dados sobre as conexões e transformar essas informações em um grafo.
 
@@ -36,13 +36,13 @@ Depois disso, o sistema irá analisar a rede e calcular as métricas de centrali
 
 ---
 
-## 4. Objetivo Geral
+ 4. Objetivo Geral
 
 Criar uma ferramenta capaz de representar e analisar uma rede de conexões, mostrando quais elementos possuem maior importância dentro dela.
 
 ---
 
-## 5. Objetivos Específicos
+ 5. Objetivos Específicos
 
 - Criar uma representação da rede utilizando grafos;
 - Analisar as conexões entre os nós;
@@ -55,35 +55,35 @@ Criar uma ferramenta capaz de representar e analisar uma rede de conexões, most
 
 ---
 
-## 6. Métricas Utilizadas
+ 6. Métricas Utilizadas
 
-### Degree
+ Degree
 
 Mostra quantas conexões diretas um determinado nó possui.
 
-**Pergunta que responde:**
+Pergunta que responde:
 
 > Quem possui mais conexões?
 
-### Betweenness
+ Betweenness
 
 Mostra quais nós aparecem com mais frequência nos caminhos entre outros nós.
 
-**Pergunta que responde:**
+Pergunta que responde:
 
 > Quem funciona como uma ponte entre diferentes grupos?
 
-### Closeness
+ Closeness
 
 Analisa o quão próximo um nó está dos demais elementos da rede.
 
-**Pergunta que responde:**
+Pergunta que responde:
 
 > Quem consegue chegar aos outros nós com mais facilidade?
 
 ---
 
-## 7. Diferencial do Projeto
+ 7. Diferencial do Projeto
 
 Uma das principais ideias do NetLens é criar um **Detector de Pontes Frágeis**.
 
@@ -97,7 +97,7 @@ Isso permite encontrar pessoas ou entidades que parecem pouco importantes, mas q
 
 ---
 
-## 8. Visualização
+ 8. Visualização
 
 O projeto terá uma visualização da rede para facilitar a análise.
 
@@ -114,7 +114,7 @@ Os nós considerados mais importantes poderão ser destacados na visualização.
 
 ---
 
-## 9. Comparação de Redes
+9. Comparação de Redes
 
 Outra funcionalidade planejada será a comparação entre duas redes.
 
@@ -129,7 +129,7 @@ A comparação permitirá observar o que mudou na estrutura da rede e quais nós
 
 ---
 
-## 10. Possíveis Aplicações
+ 10. Possíveis Aplicações
 
 O projeto pode ser utilizado para analisar diferentes tipos de redes, como:
 
@@ -143,15 +143,15 @@ O projeto pode ser utilizado para analisar diferentes tipos de redes, como:
 
 ---
 
-## 11. Exemplo
+ 11. Exemplo
 
 Imagine uma rede com cinco pessoas:
 
-**Ana, Bruno, Carla, Diego e Eduardo.**
+Ana, Bruno, Carla, Diego e Eduardo.
 
 Carla possui poucas conexões, porém é responsável por conectar dois grupos que não possuem ligação direta.
 
-Nesse caso, Carla pode apresentar um valor alto de **Betweenness**.
+Nesse caso, Carla pode apresentar um valor alto de Betweenness.
 
 Mesmo tendo menos conexões que outras pessoas, ela possui uma função importante para manter a rede conectada.
 
@@ -159,16 +159,16 @@ Esse é um dos tipos de situação que o NetLens pretende encontrar.
 
 ---
 
-## 12. Tecnologias Planejadas
+ 12. Tecnologias Planejadas
 
-### Backend
+ Backend
 
 - Python
 - NetworkX
 - Pandas
 - FastAPI
 
-### Frontend
+ Frontend
 
 - React
 - D3.js ou Cytoscape.js
@@ -176,7 +176,7 @@ Esse é um dos tipos de situação que o NetLens pretende encontrar.
 
 ---
 
-## 13. Resultado Esperado
+ 13. Resultado Esperado
 
 Ao final do projeto, esperamos ter uma ferramenta capaz de receber dados de uma rede, montar o grafo, calcular as métricas e apresentar os resultados de uma forma simples de entender.
 
@@ -184,11 +184,11 @@ A ideia é que o usuário consiga visualizar a rede e identificar rapidamente os
 
 ---
 
-## 14. Status
+ 14. Status
 
-🚧 **Projeto em desenvolvimento.**
+ Projeto em desenvolvimento.
 
-### Próximas etapas
+ Próximas etapas
 
 - [ ] Definir como os dados serão armazenados;
 - [ ] Criar o modelo do grafo;
